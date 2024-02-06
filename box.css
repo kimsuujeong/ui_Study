@@ -1,0 +1,31 @@
+p {
+    background: palegreen;
+    padding: 10px;
+  }
+  p.dotted { border-style: dotted; }
+  p.dashed { border-style: dashed; }
+  p.solid  { border-style: solid; }
+  p.double { border-style: double; }
+  p.groove { border-style: groove; }
+  p.ridge  { border-style: ridge; }
+  p.inset  { border-style: inset; }
+  p.outset { border-style: outset; }
+  p.none   { border-style: none; }
+  p.hidden { border-style: hidden; }
+  p.mix    { border-style: dotted dashed solid double; }
+
+  .content-box {
+        width: 600px;
+        border: 5px solid black;
+        padding: 40px 10px 20px 30px;
+        margin: 40px;
+        background-color: aqua;
+    }
+
+    .border-box {
+        width: 600px;
+        border: 5px solid black;
+        padding: 40px 10px 20px 30px;
+        margin: 40px;
+        background-color: aqua;
+    }

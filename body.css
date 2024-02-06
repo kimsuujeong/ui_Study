@@ -1,0 +1,7 @@
+body{
+    background-image: url("바다사진임.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50px 50px;
+    background-size: 300px 300px;
+    background-attachment: fixed;
+}
