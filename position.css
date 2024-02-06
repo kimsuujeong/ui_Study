@@ -1,0 +1,52 @@
+.parent{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border: 3px solid salmon;
+    position: absolute;
+}
+.box{
+    position: absolute;
+    height: 200px; width: 200px;
+    top: 100px; left: 100px;
+    background-color: rgb(144, 221, 221);
+    font-weight: bold;
+    text-align: center;
+    line-height: 150px;
+}
+
+.fix{
+    width: 150px; height: 150px;
+    position: fixed;
+    color: aliceblue;
+    text-align: center;
+    background-color: hotpink;
+}
+
+.h1{
+    width: 100px; height: 100px;
+    background-color: blue;
+    z-index: 150;
+}
+
+.h2{
+    width: 50px; height: 50px;
+    background-color: hotpink;
+    z-index: 100;
+}
+
+.h3{
+    width: 100px; height: 100px;
+    background-color: rgb(2, 255, 234);
+    z-index: 10;
+}
+
+.h4{
+    width: 150px; height: 150px;
+    background-color: aquamarine;
+    z-index: 1;
+}
+.abs{
+    width: 100px; height: 100px;
+    position: absolute;
+}

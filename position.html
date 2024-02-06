@@ -4,15 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="position.css">
 </head>
 <body>
-position : 요소의 위치를 결정짓는 속성. 
-기본은 static relative absolute 등 속성으로 위치를 조절할 수 있음
-  
-    <div class="parent">
-        <div class="box">
 
-        </div>
+    position : 요소의 위치를 결정짓는 속성. 
+    기본은 static relative absolute 등 속성으로 위치를 조절할 수 있음
+    static : 기본값, 요소가 첫 배치시 있는 위치
+    relative : 기본 위치를 기준으로 좌표 속성을 (top,left,right,bottom)을 활용하여 위치를 이동
+                기본적으로 static과 똑같이 동작하지만 움직임만 줄 수 있음
+    absolute : 부모요소나 혹은 가장 가까이 있는 상위 요소를 기준으로
+                좌표 속성 값 이동
+                조건 : 부모요소가 relative or absolute여야함
+                만약 상위 요소가 아무것도 없다면 (상위요소가 body라면) 어떨까욤?
+    position의 장점 : 메인 레이아웃을 작성시 보다 레이아웃의 세부조정시 사용하는 것이 유리. 
+    fixed : 고정 위치
+
+    <!-- <div class="parent">
+        <div class="box">
+            부모 있는 박스
+            </div>
     </div>
+    <div class="box">
+        부모 없는 박스
+    </div> -->
+
+    <!-- <div class="fix">
+        난 절때 안움직이지롱 쇗꺄!
+    </div> -->
+
+    <div class="h1"></div>
+    <div class="h2 abs"></div>
+    <div class="h3 abs"></div>
+    <div class="h4 abs"></div>
+    
 </body>
 </html>
