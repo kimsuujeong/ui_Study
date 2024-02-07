@@ -1,0 +1,71 @@
+header{
+    height: 50px;
+}
+
+.con ul{
+    list-style-type: none;
+    float: right;
+}
+.con ul li{
+    display: inline-block; 
+}
+
+.con ul li a {
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.main-img{
+    height: 400px;
+    background-color: aqua;
+    background-image: url("바다사진임.jpeg");
+}
+
+.text-box{
+    color: rgba(0, 5, 63, 0.363);
+    position: absolute;
+    text-align: center;
+    background-color: rgb(156, 174, 189);
+    padding: 5px 15px;
+    border-radius : 1px;
+    top : 100px;
+    right: 50px;
+}
+.container.h2{
+    font-weight: bolder;
+}
+.middle{
+    height: 200px;
+    text-align: center;
+    text-align: 30px;
+}
+.bottom{
+    height: 400px;
+}
+
+.bottom .circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.bottom img{
+    width: 300px;
+}
+.col-3{
+    width: 33.3%;
+    float: left;
+}
+.bottom2{
+    height: 400px;
+    background-color: steelblue;
+}
+.footer{
+    height: 200px;
+    background-color: olive;
+}
