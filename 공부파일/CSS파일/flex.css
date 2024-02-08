@@ -1,0 +1,23 @@
+.flex-con{
+    margin: 30px;
+    padding: 30px;
+    background-color: pink;
+}
+.flex-item{
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    padding: 10px;
+    color: skyblue;
+    text-align: center;
+    background-color: hotpink;
+}
+
+#flex-direction{
+    /* flex-direction: row-reverse; */
+    flex-direction: column;
+}
+
+#justi{
+    
+}

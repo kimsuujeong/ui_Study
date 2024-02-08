@@ -1,0 +1,36 @@
+#font{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-weight: 900; /*단위는 100단위임*/
+}
+
+#dir{
+    direction: rtl;
+}
+#letter1{
+    letter-spacing: 15;
+}
+#letter2{
+    letter-spacing: -2;
+}
+#word1{
+    word-spacing: 10;
+}
+#word2{
+    word-spacing: -4;
+}
+
+a{
+    text-decoration: none;
+    /*
+    text-decoration 속성값 정리
+    overline : 텍스트에 윗줄 생성
+    line-through : 텍스트를 통과하는 가운데줄 생성
+    underLine : 텍스트에 밑줄 생성
+    none : 텍스트 라인 제거
+    */
+}
+
+#shadow{
+    text-shadow: pink 5px 5px;
+}

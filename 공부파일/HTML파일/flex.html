@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/공부파일/CSS파일/flex.css">
+</head>
+<body>
+    플랙서블 박스 : css로 부터 제공되는 레이아웃 모델
+                    서로 다른 화면, 거기에서도 html요소의 자동 재정렬을 돕는
+                    언제나 레이아웃을 똑같이 유지시키는 소성
+    플랙서블박스의 구성
+    컨테이너로 지정할 요소에 속성을 부여(display:flex)
+    컨테이너는 반드시 하나 이상의 플랙스 아이템을 포함
+    플랙스 박스는 오직 요솩 내부에서 이렇게 위치하는가만 정의
+
+    float : html요소가 주변의 다른 요소들과 자연스럽게 어울리도록 만들어주는 속성. 
+            과거에는 레이아웃 구성시 요소 정렬을 위해 사용 되었으나
+            최근에는 거의 사용하지 않음.(플랙서블 박스 때무냉)
+    float의 단점
+    1. 요소를 붕 띄운다. (포지션 사용시 매우 취약)
+        - postion : absolute는 사용 불가
+    2. 강제로 다른 요소를 흡수한다. 
+<!-- 
+    <img src="../test/test.jpg" alt="" style="float: left;">
+    <p style="">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores a fugiat voluptatum hic doloremque maxime? Neque reprehenderit hic quibusdam eos suscipit aperiam atque veniam nobis et, tenetur illo fugiat numquam
+    </p>
+    
+     더이상 float의 영향을 받고싶지 않으면 해당 요소에 clear:both를 입력.
+    <img src="../test/다운로드.jpg" id="test" alt=""> -->
+
+    플랙스 속성(컨테이너용)
+    1. flex-direction : 요소가 배치될 방향 설정
+    2. justify-content : 수평 정렬방식 설정
+    3. align-item : 수직방향 정렬방식 설정
+    4. flex-wrap : 플렉스 라인에 여유공간이 없을 때 다음 라인으로 넘길지 말지 결정. 
+    5. flex-flow : flex-direction + flex-wrap
+    6. align-content : align-item와 유사하지만 아이템 대신 라인을 정렬
+
+    플랙스 속성(아이템용)
+    1. order
+    2. align-slef 
+    3. flex 
+
+    <div class="flex-con" id="flex-direction">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+    </div>
+
+    <div class="flex-con" id="justi">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+        <div class="flex-item">5</div>
+    </div>
+
+</body>
+</html>
